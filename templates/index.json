@@ -111,13 +111,13 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "shirt"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "ocean-blue-shirt",
             "second_image": false
           }
         },
