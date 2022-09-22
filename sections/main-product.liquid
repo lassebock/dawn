@@ -364,7 +364,16 @@
                   <img src="{{ product.metafields.custom.special_image | img_url: '250x' }}" />
                 </div>   
             {%- endif -%}
-
+            {%- if product.metafields.custom.recommendations != blank -%} 
+  <div>
+    <strong>Recommended products</strong>
+      <ul>
+        {% for product in product.metafields.custom.recommendations.value %}
+          <li><a href="{{ product.url }}">{{ product.title }}</li>
+        {% endfor %}
+      </ul>  
+  </div>
+{%- endif -%}
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
             {%- when 'collapsible_tab' -%}
