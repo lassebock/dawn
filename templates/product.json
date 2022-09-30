@@ -119,6 +119,30 @@
         "padding_bottom": 12
       }
     },
+    "1664542745ddcc8558": {
+      "type": "custom-content",
+      "blocks": {
+        "4756b930-558b-4726-b077-2e0f47db53dd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% for tag in product.tags %}\n  {{ tag }}\n{% endfor  %}\n<ul>\n  {% for tag in product.tags %}\n    <li><a href=\"\/collections\/all\/{{ tag }}\">{{ tag }}<\/a><\/li>\n  {% endfor %}\n<\/ul>"
+          }
+        },
+        "e4a4a444-4763-42da-81d1-ca0450254a3b": {
+          "type": "custom-text",
+          "settings": {
+            "custom-text-field": ""
+          }
+        }
+      },
+      "block_order": [
+        "4756b930-558b-4726-b077-2e0f47db53dd",
+        "e4a4a444-4763-42da-81d1-ca0450254a3b"
+      ],
+      "settings": {
+        "title": "Custom content"
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -213,37 +237,13 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "1664542745ddcc8558": {
-      "type": "custom-content",
-      "blocks": {
-        "4756b930-558b-4726-b077-2e0f47db53dd": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "{% for tag in product.tags %}\n  {{ tag }}\n{% endfor  %}"
-          }
-        },
-        "e4a4a444-4763-42da-81d1-ca0450254a3b": {
-          "type": "custom-text",
-          "settings": {
-            "custom-text-field": ""
-          }
-        }
-      },
-      "block_order": [
-        "4756b930-558b-4726-b077-2e0f47db53dd",
-        "e4a4a444-4763-42da-81d1-ca0450254a3b"
-      ],
-      "settings": {
-        "title": "Test"
-      }
     }
   },
   "order": [
     "main",
+    "1664542745ddcc8558",
     "image-with-text",
     "multicolumn",
-    "product-recommendations",
-    "1664542745ddcc8558"
+    "product-recommendations"
   ]
 }
