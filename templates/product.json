@@ -220,7 +220,7 @@
         "4756b930-558b-4726-b077-2e0f47db53dd": {
           "type": "liquid",
           "settings": {
-            "liquid": ""
+            "liquid": "{% for tag in product.tags %}\n  {{ tag }}\n{% endfor  %}"
           }
         },
         "e4a4a444-4763-42da-81d1-ca0450254a3b": {
