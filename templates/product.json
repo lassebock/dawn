@@ -125,7 +125,7 @@
         "4756b930-558b-4726-b077-2e0f47db53dd": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% for tag in product.tags %}\n  {{ tag }}\n{% endfor  %}\n<ul>\n  {% for tag in product.tags %}\n    <li><a href=\"\/collections\/all\/{{ tag }}\">{{ tag }}<\/a><\/li>\n  {% endfor %}\n<\/ul>"
+            "liquid": "{% for tag in product.tags %}\n  {{ tag }}\n{% endfor  %}\n<ul>\n  {% for tag in product.tags %}\n    <li><a href=\"\/collections\/all\/{{ tag }}\">{{ tag }}<\/a><\/li>\n  {% endfor %}\n<\/ul>\n{% if product.metafields.my_fields.country.value != blank %}\n  <p>Made in {{ product.metafields.my_fields.country.value }}<\/p>\n{% endif %}"
           }
         },
         "e4a4a444-4763-42da-81d1-ca0450254a3b": {
