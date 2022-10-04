@@ -48,6 +48,30 @@
         "show_text_below": false
       }
     },
+    "1664870931270ac327": {
+      "type": "custom-content",
+      "blocks": {
+        "d6bf2ecd-e68d-4579-be06-6b85696b8a59": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{{ template }}"
+          }
+        },
+        "6a231ed9-f2f6-4645-b8f8-fd35f7a063d9": {
+          "type": "custom-text",
+          "settings": {
+            "custom-text-field": "Hello World"
+          }
+        }
+      },
+      "block_order": [
+        "d6bf2ecd-e68d-4579-be06-6b85696b8a59",
+        "6a231ed9-f2f6-4645-b8f8-fd35f7a063d9"
+      ],
+      "settings": {
+        "title": "Title"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -234,6 +258,7 @@
   },
   "order": [
     "image_banner",
+    "1664870931270ac327",
     "rich_text",
     "featured_collection",
     "collage",
