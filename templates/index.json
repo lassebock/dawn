@@ -254,6 +254,58 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "slideshow_L6QDiQ": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_BYK7bt": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_TLgdqg": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_BYK7bt",
+        "slide_TLgdqg"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -263,6 +315,7 @@
     "featured_collection",
     "collage",
     "multicolumn",
-    "1664543852254244a8"
+    "1664543852254244a8",
+    "slideshow_L6QDiQ"
   ]
 }
