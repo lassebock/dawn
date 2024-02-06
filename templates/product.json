@@ -10,6 +10,13 @@
             "text_style": "uppercase"
           }
         },
+        "text_Tp7jci": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.product_title_big.value }}",
+            "text_style": "body"
+          }
+        },
         "title": {
           "type": "title",
           "disabled": true,
@@ -97,17 +104,11 @@
           "settings": {
             "custom_liquid": ""
           }
-        },
-        "text_Tp7jci": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.product_title_big.value }}",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
         "vendor",
+        "text_Tp7jci",
         "title",
         "caption",
         "price",
@@ -120,8 +121,7 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "custom_liquid_AcMGch",
-        "text_Tp7jci"
+        "custom_liquid_AcMGch"
       ],
       "settings": {
         "enable_sticky_info": true,
